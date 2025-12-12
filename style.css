@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(rgb(67, 53, 53), rgb(14, 12, 10)) no-repeat;
+  color: #fff4f4;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-width: 30px;
+  border-color: #acb4b4;
+}
+
+.fotofeast {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 25px;
+}
+
+.fotofeast img {
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  justify-content: right;
+}
+
+.wrapper {
+  display: flex;
+  align-items: left;
+  gap: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.deskripsi p {
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  align-items: flex-start;
+}
+
+.deskripsi a {
+  color: azure;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.deskripsi a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 110px;
+  font-size: 40px;
+}
+
+.top4 {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.fotofadli,
+.fotodaniel {
+  width: 260px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.fotodicky {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.fotoadnan {
+  width: 700px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  gap: 4x;
+  display: flex;
+}
+
+.data {
+  font-size: 15px;
+  margin: 0;
+}
+
+.name {
+  color: rgb(170, 159, 159);
+  text-decoration: none;
+  margin: 0;
+}
